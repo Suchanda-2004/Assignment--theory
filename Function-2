@@ -1,0 +1,16 @@
+//Write a program in c to swap two no. using functions.
+#include<stdio.h>
+int swap(int a,int b){
+int c=a;
+int b=c;
+int a=b;
+printf("The new value of a:%d\n",b);
+printf("The new value of b:%d\n",a);
+}
+int main(){
+int a=0,b=0;
+printf("Enter the value of a and b:\n");
+scanf("%d%d,&a,&b);
+swap(a,b);
+}
+}
